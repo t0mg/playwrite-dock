@@ -38,6 +38,18 @@ TODO: Cranking via the gamepad is not supported. Mapping the right analog stick 
 
 TODO: Bluetooth is not supported but is likely doable thanks to the [USBHost_t36](https://github.com/PaulStoffregen/USBHost_t36) library.
 
+## BOM
+
+It's a relatively cheap project. You'll need:
+
+- A Teensy 4.1 microcontroller, with 4 pin header solderd to the USB Host port
+- A USB 2.0 Hub
+- Cables to connect your USB devices (Playdate, keyboard)
+
+The exact references I used are linked in the [dock assembly page](https://github.com/t0mg/playwrite-dock/tree/master/dock#readme).
+
+Additionally you'll need access to a 3d printer if you want to print the dock itself.
+
 ## Credits
 
 Made possible by
