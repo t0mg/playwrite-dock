@@ -12,7 +12,7 @@ I loaded the 3 STL files into Cura and sliced them as a single print job, at 0.2
 
 ## Assembly
 
-The project is designed to be very easy to assemble. The dock could be made quite a bit slimmer by using custom-built cables at the cost of requiring q lot more soldering.
+The project is designed to be very easy to assemble. The dock could be made quite a bit slimmer by using custom-built cables at the cost of requiring a lot more soldering.
 
 ### 1. USB C connector
 
@@ -28,15 +28,15 @@ The bottom tray is designed to host the [Teensy 4.1](https://www.pjrc.com/store/
 
 <img src="../images/dock-assembly1.jpg" height="480" title="The Teensy and USB C hub sitting in the bottom tray of the dock.">
 
-To connect more than 1 device at a time, I used [this USB 2.0 Hub](https://www.amazon.fr/gp/product/B088H6221R) designed for desktop PCs, which connects to the Teensy header. It came with doublesided tape, which makes positioning it in the dock tray very straightforward.
+To connect more than 1 device at a time, I used [this USB 2.0 Hub](https://www.amazon.fr/gp/product/B088H6221R) intended for desktop PCs, which connects to the Teensy header. It came with doublesided tape, which makes positioning it in the dock tray very straightforward.
 
 ### 4. USB sockets
 
 Finally I used [standard USB extension ports](https://www.amazon.fr/gp/product/B06XCVSPZ1) also meant for desktop PCs. You only need one of these cables since they each have 2 USB connectors each. One goes to the tray's backplate and is held by the 2 original screws, it will host the gamepad or keyboard. The other remains inside the dock and connects to the Playdate via the USB A to USB C cable. The tray can then be slid into the upper piece of the dock (no locking system, it is tight enough to hold in place by itself).
 
-<img src="../images/dock-assembly3.jpg" width="33%" title="USB cables installed in the tray."> <img src="../images/dock-assembly2.jpg" width="58.2%" title="Closing the tray under the dock.">
-
 <img src="../images/dock-bottom.jpg" width="40%" title="Bottom view of the dock assembly."> <img src="../images/dock-side.jpg" width="40%" title="Side view of the dock assembly.">
+
+<img src="../images/dock-assembly3.jpg" width="33%" title="USB cables installed in the tray."> <img src="../images/dock-assembly2.jpg" width="58.2%" title="Closing the tray under the dock.">
 
 ### Credits
 
