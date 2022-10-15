@@ -32,7 +32,7 @@ To connect more than 1 device at a time, I used [this USB 2.0 Hub](https://www.a
 
 ### 4. USB sockets
 
-Finally I used [standard USB extension ports](https://www.amazon.fr/gp/product/B06XCVSPZ1) also meant for desktop PCs. You only need one of these cables since they each have 2 USB connectors each. One goes to the tray's backplate and is held by the 2 original screws, it will host the gamepad or keyboard. The other remains inside the dock and connects to the Playdate via the USB A to USB C cable. The tray can then be slid into the upper piece of the dock (no locking system, it is tight enough to hold in place by itself).
+Finally I used [standard USB extension ports](https://www.amazon.fr/gp/product/B06XCVSPZ1) also meant for desktop PCs. You only need one of these cables since they have 2 USB connectors each. One goes to the tray's backplate and is held by the 2 original screws, it will host the gamepad or keyboard. The other remains inside the dock and connects to the Playdate via the USB A to USB C cable. The tray can then be slid into the upper piece of the dock (no locking system, it is tight enough to hold in place by itself).
 
 <img src="../images/dock-assembly2.jpg" width="58.2%" title="Closing the tray under the dock."> <img src="../images/dock-assembly3.jpg" width="33%" title="USB cables installed in the tray.">
 
