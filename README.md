@@ -1,6 +1,6 @@
 # Playwrite dock
 
-<img src="images/keyboard.jpg" height="480" title="The dock connected over USB to an 8bitdo gamepad.">
+<img src="images/keyboard.jpg" width="640" title="The dock connected over USB to an 8bitdo gamepad.">
 
 A keyboard and gamepad adapter dock for [Playdate](https://play.date), mainly designed for use with the [Playwrite experimental word processor](https://github.com/t0mg/playwrite), but compatible with any other Playdate game or app.
 
@@ -16,7 +16,7 @@ For the Playwrite app for Playdate, see [here](https://github.com/t0mg/playwrite
 
 <img src="images/dock-front.jpg" width="48%" title="Bottom view of the dock assembly.">  <img src="images/dock-back.jpg" width="48%" title="Bottom view of the dock assembly.">
 
-The dock is powered by a [Teensy 4.1 microcontroller](https://www.pjrc.com/store/teensy41.html). The USB Host port of the Teensy is used to connect to both a [Playdate](https://play.date/) console and a USB HID keyboard (or gamepad). It reads user input from these devices and uses USB Serial to communicate with the Playdate, leveraging a few of the available [USB commands](https://github.com/jaames/playdate-reverse-engineering/blob/main/usb/usb.md#usb-commands) to emulate inputs, and listening to messages from the Playdate and [Playwrite app]((https://github.com/t0mg/playwrite)). 
+The dock is powered by a [Teensy 4.1 microcontroller](https://www.pjrc.com/store/teensy41.html). The USB Host port of the Teensy is used to connect to both a [Playdate](https://play.date/) console and a USB HID keyboard (or gamepad). It reads user inputs from these devices and uses USB Serial to communicate with the Playdate, leveraging a few of the available [USB commands](https://github.com/jaames/playdate-reverse-engineering/blob/main/usb/usb.md#usb-commands) to emulate native inputs, and listening to messages from the Playdate and [Playwrite app]((https://github.com/t0mg/playwrite)). 
 
 The micro USB port of the Teensy is used to power the dock and flash the software. The dock also charges the Playdate though the Teensy (albeit slowly).
 
@@ -26,7 +26,7 @@ Arrow keys, Enter and Escape are directly mapped to the directions, A and B butt
 
 ## Full keyboard mode
 
-The Playwrite app sends a specific command to the serial console (`KeyboardInputEnable`) to let the Teensy know that it can enable the "keyboard mode". In this mode, encoding keyspresses are encoded as `crankchange` angles in the dock (and decoded back to chars in the Playwrite app on the Playdate).
+The Playwrite app sends a specific command to the serial console (`KeyboardInputEnable`) to let the Teensy know that it can enable the "keyboard mode". In this mode,  keyspresses are encoded as `crankchange` angles in the dock (and decoded back to chars in the Playwrite app on the Playdate).
 
 ## USB Gamepad
 
