@@ -22,7 +22,7 @@ This dock was designed specifically for [this USB A to angled USB C cable](https
     
 ### 2. Teensy
 
-The bottom tray is designed to host the [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) development board. It's a snug fit, insert the USB connector into the hole first, then press the Teensy down into the tray. Access the SD card slot was preservedd, even though this project doesn't use it. You'll need to solder a 4 pin header connector to the USB host port prior to installing the Teensy.
+The bottom tray is designed to host the [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) development board. It's a snug fit, insert the USB connector into the hole first, then press the Teensy down into the tray. Access the SD card slot was preserved, even though this project doesn't use it. You'll need to solder a 4 pin header connector to the USB host port prior to installing the Teensy.
 
 ### 3. USB hub
 
